@@ -23,7 +23,9 @@ To setup
 6. Pick a log where the data's appearing - I used /var/log/user.log.
 7. Run the [fastdog.rb](https://github.com/darron/fastdog/blob/master/fastdog.rb) script like this: `ruby fastdog.rb /var/log/user.log`
 8. In the [Datadog admin interface](http://app.datadoghq.com) - create a [new graph like this](https://github.com/darron/fastdog/blob/master/datadog-metrics.png).
-9. ![Profit](https://github.com/darron/fastdog/blob/master/result.png).
+9. Profit.
+
+![Profit](https://github.com/darron/fastdog/raw/master/result.png).
 
 To do
 -----

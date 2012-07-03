@@ -10,6 +10,7 @@ Pre-requisites
 2. A [DatadogHQ][http://www.datadoghq.com/] account.
 3. An Ubuntu 10.0.4LTS server with Syslog port open.
 4. [Datadog software higher than 3.0.x][http://api.datadoghq.com/guides/dogstatsd/] installed on that machine.
+5. If you use Chef - [there's a cookbook that can help.][chef/cookbook]
 
 To setup
 --------

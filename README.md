@@ -18,7 +18,7 @@ To setup
 1. [You need to tell Fastly where to push the logfiles.](https://github.com/darron/fastdog/blob/master/fastly.rb) - you may also be able to do this from the [Fastly admin interface](http://app.fastly.com).
 2. Deploy your updated VCL files - from within the [Fastly admin interface](http://app.fastly.com).
 3. On the Ubuntu box: `apt-get install libcurl4-openssl-dev`
-4. On the Ubuntu box: `gem install fastly dogstatsd-ruby statsd dogapi eventmachine eventmachinetail`
+4. On the Ubuntu box: `gem install [fastly](https://github.com/fastly/fastly-ruby) [dogstatsd-ruby](https://github.com/DataDog/dogstatsd-ruby) statsd dogapi eventmachine [eventmachine-tail](https://github.com/jordansissel/eventmachine-tail)`
 5. Wait for the logs to show up - it was pretty quick for me.
 6. Pick a log where the data's appearing - I used /var/log/user.log.
 7. Run the [fastdog.rb](https://github.com/darron/fastdog/blob/master/fastdog.rb) script like this: `ruby fastdog.rb /var/log/user.log`
